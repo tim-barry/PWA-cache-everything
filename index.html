@@ -3,9 +3,12 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#57A71C" />
+	<meta name="description" content="Simple PWA that allows offline browsing of static site content.
+Everything requested is cached and there is an offline page for non-cached content. Cached content is not updated." />
 	<title>Simple Static PWA</title>
 	<link rel="manifest" href="/manifest.webmanifest" />
-	<script src="page.js"></script>
+	<script defer src="page.js"></script>
 </head>
 <body>
 	<div>
@@ -14,5 +17,7 @@
 		<button class="sw_control" onclick="clear_caches()">Clear all caches</button>
 		<p id="sw_message"></p>
 	</div>
+	<a href="/offline.html">The offline page</a>
+	| <a href="/invalid_url">An invalid url</a>
 </body>
 </html>

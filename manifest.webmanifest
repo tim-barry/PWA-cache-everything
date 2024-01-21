@@ -5,11 +5,16 @@
 	"start_url": "/",
 	"display": "minimal-ui",
 	"background_color": "#000000",
-	"theme_color": "#ffffff",
+	"theme_color": "#57A71C",
 	"icons": [{
 		"src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' style='background-color:green'></svg>",
 		"sizes": "any",
-		"type": "image/svg+xml",
+		"type": "image/svg+xml"
+	},
+	{
+		"src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIAAQMAAADOtka5AAAAA1BMVEVXpxw7znOOAAAANklEQVR42u3BAQEAAACCoP6vbojAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADiDoIAAAEB9TdeAAAAAElFTkSuQmCC",
+		"sizes": "512x512",
+		"type": "image/png",
 		"purpose": "maskable"
 	}]
 }
